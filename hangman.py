@@ -6,8 +6,6 @@ def begin():
     while True:
         play = input('Do you want to play a round of hangman guessing game (yes/no): \n')
         if play == 'yes' or play == 'YES' or play == 'y':
-            choose = ''
-            word = ''
             print('Themes: ')
             for key in sorted(words.keys()):
                 print(key)
